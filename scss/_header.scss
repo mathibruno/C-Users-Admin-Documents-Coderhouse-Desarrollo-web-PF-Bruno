@@ -1,0 +1,22 @@
+.header {
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+	display: flex;
+	gap: 10px;
+	text-transform: uppercase;
+	color: $color_1;
+	li {
+		a {
+			&:hover {
+				background-color: $background-color_2;
+			}
+			padding: 5px 15px;
+			border-radius: 20px;
+		}
+	}
+}

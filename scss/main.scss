@@ -1,0 +1,211 @@
+@import "vars";
+@import "header";
+@import "media";
+@import "footer";
+
+* {
+	font-family: $font-family_1;
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+}
+
+
+#bienvenidos {
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+
+article.centrarAlma {
+	text-align: center;
+	position: relative;
+	top: 100px;
+	span {
+		font-weight: 700;
+		font-size: 18px;
+	}
+}
+
+ol#horarios {
+	li {
+		list-style-type: none;
+	}
+}
+
+section#info {
+	text-align: center;
+	position: relative;
+	bottom: -120px;
+}
+
+.button {
+	background-color: $background-color_3;
+	border-radius: 20px;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: $color_1;
+}
+
+div.Reservaciones {
+	a {
+		border-radius: 20px;
+		padding: 5px 15px;
+		text-decoration: none;
+		&:hover {
+			background-color: $background-color_2;
+			border-radius: 30px;
+			padding: 10px 20px;
+		}
+		
+	}
+}
+
+main#sobreMi {
+	div {
+		h1 {
+			text-align: center;
+			padding: 10px;
+		}
+		p {
+			text-align: center;
+			padding: 10px;
+		}
+	}
+
+	div.fotosAbout {
+		display: flex;
+		gap: 50px;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+main#Contacto {
+	h1 {
+		text-align: center;
+		padding: 10px;
+	}
+	p {
+		text-align: center;
+	}
+}
+
+article.mapa {
+	p {
+		text-align: center;
+	}
+}
+
+div.mapa {
+	display: flex;
+	justify-content: center;
+}
+
+main#politicas {
+	article {
+		h1 {
+			text-align: center;
+			padding: 20px;
+		}
+		p.politicas-parrafo {
+			margin-left: 10px;
+		}
+	}
+}
+
+#tituloServicio {
+	text-align: center;
+}
+
+a {text-decoration: none;}
+
+.conteiner {
+    margin: auto;
+    max-width: auto;
+    padding: 0 20px;
+	background-color: $background-color_1;
+}
+
+select.formulario {
+	display: flex;
+	align-items: center;
+
+}
+
+.contactConteiner {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	background-color: $background-color_4;
+	color: $color_3;
+}
+
+.contactAgrupador {
+	box-shadow: 0 0 30px 0 rgba(255, 255, 255, .3)
+}
+
+.contactAgrupador {
+	padding: 1em ;
+}
+
+.contact-form {
+	background-color: $background-color_5;
+	form {
+		margin: 0;
+		padding: 1em;
+
+		button{
+			background-color: $background-color_1;
+			width: 100%;
+			border: 0;
+			text-transform: uppercase;
+			padding: 1em;
+			border-radius: 10px;
+				&:hover {
+					background-color: $background-color_2;
+					color: $background-color_6;
+					outline: 0;
+					transition: 4s ease-out;
+				}
+		}
+	}
+	
+	input {
+		width: 100%;
+		border: none;
+		background: none;
+		border-bottom: 1px solid #d63031;
+		outline: none;
+		color: $color_3;
+	}
+	textarea {
+		width: 100%;
+		border: none;
+		background: none;
+		border-bottom: 1px solid #d63031;
+		outline: none;
+		color: $color_3;
+	}
+}
+
+
+.contactInfo {
+	background-color: $background-color_6 ;
+	h4 {
+		text-align: center;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			padding: .3em;
+			text-align: center;
+			margin: 0 0 1rem 0;
+		}
+	}
+}
+
+

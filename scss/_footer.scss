@@ -1,0 +1,15 @@
+footer {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 20px;
+    bottom: -120px;
+    position: relative;
+}
+
+a.politicas {
+	margin-left: 60px;
+	color: $color_2;
+	text-decoration: none;
+}

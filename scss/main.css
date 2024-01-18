@@ -1,0 +1,249 @@
+.header {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
+  display: flex;
+  gap: 10px;
+  text-transform: uppercase;
+  color: #333;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a {
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0 li a:hover {
+  background-color: rgb(243, 253, 168);
+}
+
+@media (max-width: 570px) {
+  .icoFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .copy {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  main#Servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 570px) {
+  main#Servicios {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 570px) {
+  div.fotosAbout {
+    display: flex;
+    flex-direction: column;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+  bottom: -120px;
+  position: relative;
+}
+
+a.politicas {
+  margin-left: 60px;
+  color: blue;
+  text-decoration: none;
+}
+
+* {
+  font-family: "Nunito", sans-serif;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+#bienvenidos {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+article.centrarAlma {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+article.centrarAlma span {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+ol#horarios li {
+  list-style-type: none;
+}
+
+section#info {
+  text-align: center;
+  position: relative;
+  bottom: -120px;
+}
+
+.button {
+  background-color: rgb(211, 211, 211);
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333;
+}
+
+div.Reservaciones a {
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+}
+div.Reservaciones a:hover {
+  background-color: rgb(243, 253, 168);
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+
+main#sobreMi div h1 {
+  text-align: center;
+  padding: 10px;
+}
+main#sobreMi div p {
+  text-align: center;
+  padding: 10px;
+}
+main#sobreMi div.fotosAbout {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+main#Contacto h1 {
+  text-align: center;
+  padding: 10px;
+}
+main#Contacto p {
+  text-align: center;
+}
+
+article.mapa p {
+  text-align: center;
+}
+
+div.mapa {
+  display: flex;
+  justify-content: center;
+}
+
+main#politicas article h1 {
+  text-align: center;
+  padding: 20px;
+}
+main#politicas article p.politicas-parrafo {
+  margin-left: 10px;
+}
+
+#tituloServicio {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.conteiner {
+  margin: auto;
+  max-width: auto;
+  padding: 0 20px;
+  background-color: rgb(253, 255, 239);
+}
+
+select.formulario {
+  display: flex;
+  align-items: center;
+}
+
+.contactConteiner {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  background-color: #333333;
+  color: white;
+}
+
+.contactAgrupador {
+  box-shadow: 0 0 30px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contactAgrupador {
+  padding: 1em;
+}
+
+.contact-form {
+  background-color: rgba(34, 34, 34, 0.1333333333);
+}
+.contact-form form {
+  margin: 0;
+  padding: 1em;
+}
+.contact-form form button {
+  background-color: rgb(253, 255, 239);
+  width: 100%;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+  border-radius: 10px;
+}
+.contact-form form button:hover {
+  background-color: rgb(243, 253, 168);
+  color: #0b0b0b;
+  outline: 0;
+  transition: 4s ease-out;
+}
+.contact-form input {
+  width: 100%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d63031;
+  outline: none;
+  color: white;
+}
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d63031;
+  outline: none;
+  color: white;
+}
+
+.contactInfo {
+  background-color: #0b0b0b;
+}
+.contactInfo h4 {
+  text-align: center;
+}
+.contactInfo ul {
+  list-style: none;
+  padding: 0;
+}
+.contactInfo ul li {
+  padding: 0.3em;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}/*# sourceMappingURL=main.css.map */

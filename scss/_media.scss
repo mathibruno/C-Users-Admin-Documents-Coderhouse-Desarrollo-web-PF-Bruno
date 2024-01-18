@@ -1,0 +1,33 @@
+@media (max-width: $mobile) {
+    .icoFooter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .copy {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: $tablet) {
+    main#Servicios {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: $mobile) {
+    main#Servicios {
+        display: grid;
+        gap: 50px;
+        grid-template-columns: 1fr ;
+
+    }
+}
+
+@media (max-width: $mobile) {
+    div.fotosAbout {
+		display: flex;
+		flex-direction: column;
+	}
+}
